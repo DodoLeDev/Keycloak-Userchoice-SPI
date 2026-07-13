@@ -13,6 +13,9 @@ reached during login, it asks the user to pick one answer to a configurable ques
 possible answers come from a multivalued User Profile attribute on that user. The chosen
 answer is exposed as a claim in the OpenID Connect tokens issued to the client.
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/c04cd4ec-30cf-402c-bd8a-8bc973aacd57" />
+
+
 ## How it works
 
 - **User Choice** (Authentication → Authenticator, `org.keycloak.authentication.Authenticator`):
